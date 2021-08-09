@@ -131,7 +131,7 @@ struct FtInner<Device: FtdiCommon> {
 
 impl<Device: FtdiCommon> Drop for FtInner<Device> {
     fn drop(&mut self) {
-        self.ft.close().unwrap();
+        self.ft.close().ok();
     }
 }
 
