@@ -95,8 +95,8 @@ use libftd2xx::{
     DeviceTypeError, Ft2232h, Ft232h, Ft4232h, Ftdi, FtdiCommon, FtdiMpsse, MpsseSettings,
     TimeoutError,
 };
-use std::ops::Drop;
 use std::convert::TryFrom;
+use std::ops::Drop;
 use std::{cell::RefCell, convert::TryInto, sync::Mutex, time::Duration};
 
 /// State tracker for each pin on the FTDI chip.
