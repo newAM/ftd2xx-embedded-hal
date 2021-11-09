@@ -1,3 +1,7 @@
+# ARCHIVED
+
+This has been superseded by [ftdi-embedded-hal](https://github.com/ftdi-rs/ftdi-embedded-hal).
+
 ![Maintenance](https://img.shields.io/badge/maintenance-experimental-blue.svg)
 [![crates.io](https://img.shields.io/crates/v/ftd2xx-embedded-hal.svg)](https://crates.io/crates/ftd2xx-embedded-hal)
 [![docs.rs](https://docs.rs/ftd2xx-embedded-hal/badge.svg)](https://docs.rs/ftd2xx-embedded-hal/)
